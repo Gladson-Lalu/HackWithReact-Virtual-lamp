@@ -1,4 +1,4 @@
-import "./home.css";
+import "./home.page.css";
 import React from "react";
 import groupIcon from "../../assets/group.svg";
 import { Button } from "reactstrap";

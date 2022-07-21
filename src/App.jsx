@@ -2,8 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/home/home";
-import Lamp from "./components/lamp/lamp";
+import Home from "./components/home/home.page";
+import Lamp from "./components/lamp/lamp.page";
 
 function App() {
   return (
