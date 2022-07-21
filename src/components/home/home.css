@@ -1,0 +1,46 @@
+.App-header {
+  margin-top: 60px;
+  display: flex;
+  font-family: "Playfair Display SC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 130% */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.center {
+  position: relative;
+  width: 699.13px;
+  height: 216px;
+  left: 370px;
+  top: 196px;
+  align-items: center;
+}
+
+.content {
+  position: absolute;
+  width: 692px;
+  height: 205px;
+  left: calc(50% - 692px / 2 - 4px);
+  top: calc(50% - 205px / 2 - 113.5px);
+
+  font-family: "Oleo Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 119px;
+  letter-spacing: -0.03em;
+
+  color: #3e4e50;
+}
+
+.content span {
+  color: #2191fb;
+}
