@@ -1,9 +1,11 @@
 import "./home.css";
 import React from "react";
-import groupIcon from "../assets/group.svg";
+import groupIcon from "../../assets/group.svg";
 import { Button } from "reactstrap";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigator = useNavigate();
   return (
     <div>
       <header className="App-header">College of Engineering Aranmula</header>
@@ -13,7 +15,13 @@ function Home() {
         </h1>
         <img src={groupIcon} alt="icons" />
         <div className="text-center mt-5">
-          <Button color="primary" size="lg">
+          <Button
+            color="primary"
+            size="lg"
+            onClick={() => {
+              navigator("/lamp");
+            }}
+          >
             Let’s Hack This
           </Button>
         </div>
